@@ -14,7 +14,7 @@ local Window = Rayfield:CreateWindow({
    DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
 
    ConfigurationSaving = {
-      Enabled = true,
+      Enabled = false,
       FolderName = JHub_Configuration_Prenium, -- Create a custom folder for your hub/game
       FileName = "JHub_Configuration"
    },
@@ -39,7 +39,7 @@ local Window = Rayfield:CreateWindow({
 
 local Tab = Window:CreateTab("📜Informations",104365492568677) -- Title, Image
 
-local Paragraph = Tab:CreateParagraph({Title = "Juju Hub", Content = "Bon Cheat mdrrrr"})
+local Paragraph = Tab:CreateParagraph({Title = "Juju Hub", Content = "Bon Cheat, si un script demande une clé ou ne marche plus, prévenez moi"})
 local Paragraph = Tab:CreateParagraph({Title = "Version Actuelle", Content = "V1.0.0"})
 
 local Paragraph = Tab:CreateParagraph({Title = "Createur du Script", Content = "@jujuofficiel"})
